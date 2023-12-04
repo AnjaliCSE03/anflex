@@ -1,14 +1,14 @@
 *{
-    margin : 0;
-    padding : 0;
+    margin: 0;
+    padding: 0;
 }
 body{
-    font-family : 'Netflix Sans', sans-serif;
-    background-color : #111;
+    font-family:'Netflix Sans', Sans-Serif;
+    background-color:#111;
  }
  ::-webkit-scrollbar{
-    width : 7px;
-    background-color : #111;
+    width:7px;
+    background-color :#111;
  }
  ::-webkit-scrollbar-thumb{
     background-color : white;
