@@ -3,28 +3,28 @@
     padding: 0;
 }
 body{
-    font-family: 'Netflix Sans', sans-serif;
-    background-color: # 111;
+    font-family : 'Netflix Sans', sans-serif;
+    background-color : #111;
  }
  ::-webkit-scrollbar{
-    width: 7 px;
-    background-color: # 111;
+    width : 7px;
+    background-color : #111;
  }
  ::-webkit-scrollbar-thumb{
-    background-color: white;
-    border-radius: 10 px;
+    background-color : white;
+    border-radius : 10 px;
  }
  .nav{
-    position: fixed;
-    top: 0;
-    padding: 20 px 40 px;
-    width: 100 %;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 1;
-    transition-timing-function: ease-in;
-    transition: all .5 s;
+    position : fixed;
+    top : 0;
+    padding : 20px 40px;
+    width : 100 %;
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    z-index : 1;
+    transition-timing-function : ease-in;
+    transition : all .5 s;
  }
  .nav.active{
     background-color: #111;
