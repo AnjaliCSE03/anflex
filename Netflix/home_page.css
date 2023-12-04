@@ -24,51 +24,51 @@ body{
     justify-content: space-between;
     z-index: 1;
     transition-timing-function: ease-in;
-    transition: all .5s;
+    transition: all .5 s;
  }
  .nav.active{
     background-color: #111;
  }
  .nav__left{
-    margin: 10px;
+    margin: 10 px;
 
  }
  .nav_logo{
-    width: 180px;
+    width: 180 px;
  }
  .nav__right{
     position: fixed;
-    right: 30px;
+    right: 30 px;
     display: flex;
-    margin-right: 10px;
+    margin-right: 10 px;
  }
  .nav_avatar{
-    width: 40px;
+    width: 40 px;
  }
  #banner{
     color: white;
     object-fit: contain;
-    height: 644px;
+    height: 644 px;
     background-position: center center;
     background-size: cover;
  }
  #banner__contents{
-    margin-left: 70px;
-    padding-top: 340px;
-    height: 190px;
+    margin-left: 70 px;
+    padding-top: 340 px;
+    height: 190 px;
  }
  #banneer__title{
-    font-size: 3rem;
+    font-size: 3 rem;
     font-weight: 800;
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.3 rem;
  }
  #banner__description{
-    width: 45rem;
+    width: 45 rem;
     line-height: 1.5;
-    padding-top: 1rem;
-    font-size: 20px;
-    max-width: 360px;
-    height: 80px;
+    padding-top: 1 rem;
+    font-size: 20 px;
+    max-width: 360 px;
+    height: 80 px;
  }
  #banner__button{
     cursor: pointer;
@@ -76,40 +76,40 @@ body{
     outline: none;
     border: none;
     font-weight: 700;
-    border-radius: .2vw;
-    padding-left: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 1rem;
-    padding-top: .5rem;
-    background-color: rgba(51,51,51,.5);
-    padding-bottom: .5rem;
+    border-radius: .2 vw;
+    padding-left: 2 rem;
+    margin-top: 1 rem;
+    margin-bottom: 1 rem;
+    margin-right: 1 rem;
+    padding-top: .5 rem;
+    background-color: rgba (51,51,51,.5);
+    padding-bottom: .5 rem;
  }
  #banner__button:hover{
     color: black;
     background-color: #e6e6e6;
-    transition: all .3s;
+    transition: all .3 s;
  }
  #banner__fadeBottom{
-    height: 7.4rem;
-    background: linear-gradient(
-        180deg,
+    height: 7.4 rem;
+    background: linear-gradient (
+        180 deg,
         transparent,
-        rgba(37,37,37,.61)
+        rgba (37,37,37,.61)
         #111
     );
  }
 
  .row{
-    margin-left: 20px;
+    margin-left: 20 px;
     color: white;
  }
  .row__poster{
     object-fit: contain;
-    width: 100%;
-    max-height: 120px;
-    margin-right: 10px;
-    transition: transform 500ms;
+    width: 100 %;
+    max-height: 120 px;
+    margin-right: 10 px;
+    transition: transform 500 ms;
  }
  .row__posters::-webkit-scrollbar{
     display: none;
@@ -118,25 +118,25 @@ body{
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 20px;
+    padding: 20 px;
  }
  .row__poster:hover{
-    transform: scale(1.08);
+    transform: scale (1.08);
  }
  .row__posterLarge,
  .row__posterLarge1,
  .row__posterLarge2{
     object-fit: contain;
-    width: 100%;
-    max-height: 250px;
-    margin-right: 10px;
-    transition: transform 500ms;
+    width: 100 %;
+    max-height: 250 px;
+    margin-right: 10 px;
+    transition: transform 500 ms;
 
  }
  .row__posterLarge:hover
  .row__posterLarge1:hover
  .row__posterLarge2{
-    transform: scale(1.09);
+    transform: scale (1.09);
     opacity: 1;
  }
 
