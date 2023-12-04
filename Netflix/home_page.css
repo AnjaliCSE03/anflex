@@ -4,11 +4,11 @@
 }
 body{
     font-family: 'Netflix Sans', sans-serif;
-    background-color: #111;
+    background-color: # 111;
  }
  ::-webkit-scrollbar{
     width: 7 px;
-    background-color: #111;
+    background-color: # 111;
  }
  ::-webkit-scrollbar-thumb{
     background-color: white;
@@ -27,7 +27,7 @@ body{
     transition: all .5 s;
  }
  .nav.active{
-    background-color: #111;
+    background-color: # 111;
  }
  .nav__left{
     margin: 10 px;
